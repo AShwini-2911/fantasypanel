@@ -3,6 +3,8 @@ package Utility;
 
 
 
+import org.testng.annotations.AfterTest;
+
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 
@@ -21,7 +23,11 @@ public class ExtentReportUtil {
         extentTest.set(test);
     }
 
-    
+    @AfterTest
+    public void tearDown() {
+        //to write or update test information to the reporter
+        extentReports.flush();
+    }
 
 }
 

@@ -51,6 +51,7 @@ public class DriverManager {
 	public synchronized void afterSuite() {
 		webDriver.get().close();
 		webDriver.get().quit();
+		
 	}
 
 	

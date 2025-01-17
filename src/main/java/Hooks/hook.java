@@ -67,6 +67,7 @@ public class hook extends DriverManager {
 
         // Clear console output for the next test
         Util.clearConsoleOutput();
+        
 	}
 	
 	private String readLogFile(String logFilePath) throws IOException {

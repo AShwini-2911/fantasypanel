@@ -210,6 +210,7 @@ public class Util extends DriverManager {
 	     */
 	    public static void clearConsoleOutput() {
 	        consoleOutput.reset();  // Clear the ByteArrayOutputStream
+	        
 	    }
 
 	   
