@@ -75,7 +75,6 @@ public class hook extends DriverManager {
             String line;
             while ((line = reader.readLine()) != null) {
                 logContent.append(line).append("\n");
-                System.out.println("");
 
             }
         }
