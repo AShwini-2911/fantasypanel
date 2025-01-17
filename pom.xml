@@ -4,13 +4,19 @@
 		  <artifactId>practice</artifactId>
 		  <version>0.0.1-SNAPSHOT</version>
 		  
+		  <properties>
+    			<maven.compiler.source>1.8</maven.compiler.source>
+    			<maven.compiler.target>1.8</maven.compiler.target>
+    			<maven.compiler.release>8</maven.compiler.release>
+		</properties>
+		
 		  <build>
 		  
 		  	<plugins>
 		  		<plugin>
 		  			<groupId>org.apache.maven.plugins</groupId>
 		  			<artifactId>maven-compiler-plugin</artifactId>
-		  			<version>3.13.0</version>
+		  			<version>3.8.1</version>
 		  			<configuration>
 		  				<source>1.8</source>
 		  				<target>1.8</target>
@@ -20,7 +26,7 @@
 		  		<plugin>
 		  			<groupId>org.apache.maven.plugins</groupId>
 		  			<artifactId>maven-surefire-plugin</artifactId>
-		  			<version>3.5.2</version>
+		  			<version>3.0.0-M8</version>
 		  			<configuration>
 		  				<suiteXmlFiles>
 		  					<suiteXmlFile>tesng.xml</suiteXmlFile>
@@ -112,6 +118,14 @@
     <groupId>com.aventstack</groupId>
     <artifactId>extentreports</artifactId>
     <version>5.1.2</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/junit/junit -->
+<dependency>
+    <groupId>junit</groupId>
+    <artifactId>junit</artifactId>
+    <version>4.13.2</version>
+    <scope>test</scope>
 </dependency>
 
 		  </dependencies>
