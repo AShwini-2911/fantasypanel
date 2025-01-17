@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>86/18/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 17 12:35:53 IST 2025</td>
+<td>Started on:</td><td>Fri Jan 17 14:51:14 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>29 seconds (29654 ms)</td>
+<tr><td>Total time:</td><td>2086 seconds (2086837 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -70,11 +70,530 @@ function toggleAllBoxes() {
 <table width='100%' border='1' class='invocation-failed'>
 <tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
-<td><b>Attribute(s)</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Pin a contest (ID 0)", "Contests Module Operations in DFS Module"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Pinned Successfully!&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5f80c92be037152cab26b0a018070a0, findElement {using=xpath, value=//p[.=&quot;Pinned Successfully!&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64928/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5f80c92be037152cab26b0a018070a0
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.DFS.ContestDashboardPage.clickPinButton(ContestDashboardPage.java:83)
+	at stepDefinitions.DFS.ContestDashboardSteps.user_clicks_on_pin_contest_which_has_zero_id(ContestDashboardSteps.java:76)
+	at ✽.User clicks on Pin contest which has id 0(file:///D:/automation/practice/src/test/resources/features/DFS/ContestDashboard.feature:21)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace545359296", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace545359296'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Pinned Successfully!&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b5f80c92be037152cab26b0a018070a0, findElement {using=xpath, value=//p[.=&quot;Pinned Successfully!&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64928}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64928/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b5f80c92be037152cab26b0a018070a0
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.DFS.ContestDashboardPage.clickPinButton(ContestDashboardPage.java:83)
+	at stepDefinitions.DFS.ContestDashboardSteps.user_clicks_on_pin_contest_which_has_zero_id(ContestDashboardSteps.java:76)
+	at ✽.User clicks on Pin contest which has id 0(file:///D:/automation/practice/src/test/resources/features/DFS/ContestDashboard.feature:21)
+</pre></div></td>
+<td>24</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter users and verify the filtered data", "User Management Module"</td>
+<td><div><pre>java.lang.AssertionError: Actual data does not match expected data!
+	at stepDefinitions.UserManagement.UserManagementSteps.user_should_see_filtered_data_displayed_in_the_table(UserManagementSteps.java:137)
+	at ✽.User should see filtered data displayed in the table(file:///D:/automation/practice/src/test/resources/features/UserMgmt/UserManagement.feature:26)
+</pre></div><a href='#' onClick='toggleBox("stack-trace382661071", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace382661071'><pre>java.lang.AssertionError: Actual data does not match expected data!
+	at stepDefinitions.UserManagement.UserManagementSteps.user_should_see_filtered_data_displayed_in_the_table(UserManagementSteps.java:137)
+	at ✽.User should see filtered data displayed in the table(file:///D:/automation/practice/src/test/resources/features/UserMgmt/UserManagement.feature:26)
+</pre></div></td>
+<td>12</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add MarketingCategory Details", "MarketingCategory Module Operations in Master Module"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Data Added Successfully&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f611ea1699f03259b778511abb4a7cb, findElement {using=xpath, value=//p[.=&quot;Data Added Successfully&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50888/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f611ea1699f03259b778511abb4a7cb
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Master.MarketingCategoryPage.MarketingSuccessMessage(MarketingCategoryPage.java:117)
+	at stepDefinitions.Master.MarketingCategorySteps.success_Category_message(MarketingCategorySteps.java:239)
+	at ✽.User should able to see marketing category success message &quot;Data Added Successfully&quot;(file:///D:/automation/practice/src/test/resources/features/Master/MarketingCategory.feature:13)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace602493547", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace602493547'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Data Added Successfully&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [2f611ea1699f03259b778511abb4a7cb, findElement {using=xpath, value=//p[.=&quot;Data Added Successfully&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50888}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50888/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2f611ea1699f03259b778511abb4a7cb
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Master.MarketingCategoryPage.MarketingSuccessMessage(MarketingCategoryPage.java:117)
+	at stepDefinitions.Master.MarketingCategorySteps.success_Category_message(MarketingCategorySteps.java:239)
+	at ✽.User should able to see marketing category success message &quot;Data Added Successfully&quot;(file:///D:/automation/practice/src/test/resources/features/Master/MarketingCategory.feature:13)
+</pre></div></td>
+<td>34</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Sports Details", "Sports Module Operations in Master Module"</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46be261ea910efbca5717e5b830523a1, getElementText {id=f.EDF4E35C8BBB331117AAC0038D03A1E7.d.1259495948AD32730DED64EC10FE309D.e.173}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51488}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51488/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (46be261ea910efbca5717e5b830523a1)] -&gt; tag name: table]
+Session ID: 46be261ea910efbca5717e5b830523a1
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Master.SportsPage.getSportsFilteredData(SportsPage.java:74)
+	at stepDefinitions.Master.SportsSteps.user_should_able_to_filtered_sports_data(SportsSteps.java:135)
+	at ✽.User should able to filtered Sports data(file:///D:/automation/practice/src/test/resources/features/Master/Sports.feature:24)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace980710326", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace980710326'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [46be261ea910efbca5717e5b830523a1, getElementText {id=f.EDF4E35C8BBB331117AAC0038D03A1E7.d.1259495948AD32730DED64EC10FE309D.e.173}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51488}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51488/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (46be261ea910efbca5717e5b830523a1)] -&gt; tag name: table]
+Session ID: 46be261ea910efbca5717e5b830523a1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Master.SportsPage.getSportsFilteredData(SportsPage.java:74)
+	at stepDefinitions.Master.SportsSteps.user_should_able_to_filtered_sports_data(SportsSteps.java:135)
+	at ✽.User should able to filtered Sports data(file:///D:/automation/practice/src/test/resources/features/Master/Sports.feature:24)
+</pre></div></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a video with valid data", "Videos Module Operations in Master Module"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Data Added Successfully&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ae1ef361d4278d7121d995c135345be, findElement {using=xpath, value=//p[.=&quot;Data Added Successfully&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51547/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ae1ef361d4278d7121d995c135345be
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Master.VideosPage.videoSuccessMsg(VideosPage.java:109)
+	at stepDefinitions.Master.VideosSteps.a_success_message_should_be_displayed(VideosSteps.java:118)
+	at ✽.a success message &quot;Data Added Successfully&quot; should be displayed(file:///D:/automation/practice/src/test/resources/features/Master/Videos.feature:13)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace943511000", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace943511000'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Data Added Successfully&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [1ae1ef361d4278d7121d995c135345be, findElement {using=xpath, value=//p[.=&quot;Data Added Successfully&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir2...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51547}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51547/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1ae1ef361d4278d7121d995c135345be
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Master.VideosPage.videoSuccessMsg(VideosPage.java:109)
+	at stepDefinitions.Master.VideosSteps.a_success_message_should_be_displayed(VideosSteps.java:118)
+	at ✽.a success message &quot;Data Added Successfully&quot; should be displayed(file:///D:/automation/practice/src/test/resources/features/Master/Videos.feature:13)
+</pre></div></td>
+<td>21</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation error for invalid player numbers", "Player Position Module Operations in Master Module"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user update Maximum player &quot;0&quot;&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;user update Maximum player {string}&quot;)
+public void user_update_maximum_player(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user should see an max player should greater than minimum error message {string}&quot;)
+public void user_should_see_an_max_player_should_greater_than_minimum_error_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at Base.CutomizeTestNGCucmberRunner.runScenario(CutomizeTestNGCucmberRunner.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1850499684", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1850499684'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user update Maximum player &quot;0&quot;&apos; and 1 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@When(&quot;user update Maximum player {string}&quot;)
+public void user_update_maximum_player(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;user should see an max player should greater than minimum error message {string}&quot;)
+public void user_should_see_an_max_player_should_greater_than_minimum_error_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at Base.CutomizeTestNGCucmberRunner.runScenario(CutomizeTestNGCucmberRunner.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update All Rounder(Cricket) Details", "Player Position Module Operations in Master Module"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user should able to see Cricket details updated message &quot;Data Updated Successfully&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user should able to see Cricket details updated message {string}&quot;)
+public void user_should_able_to_see_cricket_details_updated_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at Base.CutomizeTestNGCucmberRunner.runScenario(CutomizeTestNGCucmberRunner.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace772615364", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace772615364'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;user should able to see Cricket details updated message &quot;Data Updated Successfully&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;user should able to see Cricket details updated message {string}&quot;)
+public void user_should_able_to_see_cricket_details_updated_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at Base.CutomizeTestNGCucmberRunner.runScenario(CutomizeTestNGCucmberRunner.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add staff user with valid details", "Manage Staff Module Operations in Staff Module"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Data Added Successfully&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7dd9ea5046deffadca0660d6710aa7b1, findElement {using=xpath, value=//p[.=&quot;Data Added Successfully&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52015/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dd9ea5046deffadca0660d6710aa7b1
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Staff.ManageStaffPage.addStaffMsg(ManageStaffPage.java:312)
+	at stepDefinitions.Staff.ManageStaffSteps.user_should_able_to_see_message(ManageStaffSteps.java:460)
+	at ✽.User should able to see &quot;Data Added Successfully&quot; message(file:///D:/automation/practice/src/test/resources/features/Staff/ManageStaffView.feature:82)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace217971860", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace217971860'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Data Added Successfully&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7dd9ea5046deffadca0660d6710aa7b1, findElement {using=xpath, value=//p[.=&quot;Data Added Successfully&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52015}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52015/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7dd9ea5046deffadca0660d6710aa7b1
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Staff.ManageStaffPage.addStaffMsg(ManageStaffPage.java:312)
+	at stepDefinitions.Staff.ManageStaffSteps.user_should_able_to_see_message(ManageStaffSteps.java:460)
+	at ✽.User should able to see &quot;Data Added Successfully&quot; message(file:///D:/automation/practice/src/test/resources/features/Staff/ManageStaffView.feature:82)
+</pre></div></td>
+<td>26</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Email Template Details", "Email Template Module Operations in Marketing Module"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//textarea[@dir=&quot;ltr&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d085c6594c69bdef1d491454af0aa2a5, findElement {using=xpath, value=//textarea[@dir=&quot;ltr&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50244/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d085c6594c69bdef1d491454af0aa2a5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.sendKeys(Unknown Source)
+	at Pages.Marketing.EmailTemplatePage.fillFormAddEmailTemplate(EmailTemplatePage.java:69)
+	at stepDefinitions.Marketing.EmailTemplateSteps.user_fill_all_the_email_template_details(EmailTemplateSteps.java:31)
+	at ✽.User fill all the Email Template details(file:///D:/automation/practice/src/test/resources/features/Marketing/EmailTemplate.feature:9)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace989006520", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace989006520'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//textarea[@dir=&quot;ltr&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [d085c6594c69bdef1d491454af0aa2a5, findElement {using=xpath, value=//textarea[@dir=&quot;ltr&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50244}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50244/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d085c6594c69bdef1d491454af0aa2a5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.sendKeys(Unknown Source)
+	at Pages.Marketing.EmailTemplatePage.fillFormAddEmailTemplate(EmailTemplatePage.java:69)
+	at stepDefinitions.Marketing.EmailTemplateSteps.user_fill_all_the_email_template_details(EmailTemplateSteps.java:31)
+	at ✽.User fill all the Email Template details(file:///D:/automation/practice/src/test/resources/features/Marketing/EmailTemplate.feature:9)
+</pre></div></td>
+<td>21</td>
+<td>Runner.testRunner@557caf28</td></tr>
 <tr>
 <td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Unpin a contest (ID 1)", "Contests Module Operations in DFS Module"</td>
 <td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#\31 &quot;}
@@ -83,9 +602,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [970ba07a27f75b3f000af3bcce092696, findElement {value=1, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62334/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 970ba07a27f75b3f000af3bcce092696
+Command: [2083a2fb851a103ab1b1d8ab4ffa598f, findElement {using=id, value=1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64896}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64896/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2083a2fb851a103ab1b1d8ab4ffa598f
 	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
 	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
@@ -103,16 +622,16 @@ Session ID: 970ba07a27f75b3f000af3bcce092696
 	at Pages.DFS.ContestDashboardPage.clickPinButton(ContestDashboardPage.java:77)
 	at stepDefinitions.DFS.ContestDashboardSteps.user_clicks_on_pin_contest_which_has_id(ContestDashboardSteps.java:51)
 	at ✽.User clicks on UnPin contest which has id 1(file:///D:/automation/practice/src/test/resources/features/DFS/ContestDashboard.feature:16)
-... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1269909484", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1269909484'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#\31 &quot;}
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1029638356", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1029638356'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;#\31 &quot;}
   (Session info: chrome=131.0.6778.266)
 For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
 Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
 System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [970ba07a27f75b3f000af3bcce092696, findElement {value=1, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir9...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62334}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62334/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 970ba07a27f75b3f000af3bcce092696
+Command: [2083a2fb851a103ab1b1d8ab4ffa598f, findElement {using=id, value=1}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64896}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64896/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 2083a2fb851a103ab1b1d8ab4ffa598f
 	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
 	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
 	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
@@ -134,8 +653,913 @@ Session ID: 970ba07a27f75b3f000af3bcce092696
 	at stepDefinitions.DFS.ContestDashboardSteps.user_clicks_on_pin_contest_which_has_id(ContestDashboardSteps.java:51)
 	at ✽.User clicks on UnPin contest which has id 1(file:///D:/automation/practice/src/test/resources/features/DFS/ContestDashboard.feature:16)
 </pre></div></td>
+<td>17</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update MarketingCategory Information", "MarketingCategory Module Operations in Master Module"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[.=&quot;Submit&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b44027e833d501aac24b2c04401da4fa, findElement {using=xpath, value=//button[.=&quot;Submit&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51269/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b44027e833d501aac24b2c04401da4fa
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.click(Unknown Source)
+	at Pages.Master.MarketingCategoryPage.MarketingUpdateMessage(MarketingCategoryPage.java:136)
+	at stepDefinitions.Master.MarketingCategorySteps.update_category_message(MarketingCategorySteps.java:300)
+	at ✽.an category update message &quot;Data Updated Successfully&quot; should be display(file:///D:/automation/practice/src/test/resources/features/Master/MarketingCategory.feature:53)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1886469789", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1886469789'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//button[.=&quot;Submit&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [b44027e833d501aac24b2c04401da4fa, findElement {using=xpath, value=//button[.=&quot;Submit&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51269}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51269/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: b44027e833d501aac24b2c04401da4fa
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.click(Unknown Source)
+	at Pages.Master.MarketingCategoryPage.MarketingUpdateMessage(MarketingCategoryPage.java:136)
+	at stepDefinitions.Master.MarketingCategorySteps.update_category_message(MarketingCategorySteps.java:300)
+	at ✽.an category update message &quot;Data Updated Successfully&quot; should be display(file:///D:/automation/practice/src/test/resources/features/Master/MarketingCategory.feature:53)
+</pre></div></td>
+<td>17</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Teams Details", "Teams Module Operations in DFS Module"</td>
+<td><div><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [381179c99dee65d00590333a550e7b78, clickElement {id=f.DBDF7BFE3835FC7E3BA866E1E200B1BE.d.220B5EEE26DCF2DDB64DA9F20456C426.e.120}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65259/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (381179c99dee65d00590333a550e7b78)] -&gt; xpath: (//i[@class=&quot;fa fa-eye&quot;])[1]]
+Session ID: 381179c99dee65d00590333a550e7b78
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.click(Unknown Source)
+	at Pages.DFS.TeamsPage.clickViewTeam(TeamsPage.java:27)
+	at stepDefinitions.DFS.TeamsSteps.user_click_on_view_teams_button(TeamsSteps.java:29)
+	at ✽.User click on View Teams button(file:///D:/automation/practice/src/test/resources/features/DFS/Teams.feature:10)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1161685456", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1161685456'><pre>org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found in the current frame
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [381179c99dee65d00590333a550e7b78, clickElement {id=f.DBDF7BFE3835FC7E3BA866E1E200B1BE.d.220B5EEE26DCF2DDB64DA9F20456C426.e.120}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65259}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65259/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (381179c99dee65d00590333a550e7b78)] -&gt; xpath: (//i[@class=&quot;fa fa-eye&quot;])[1]]
+Session ID: 381179c99dee65d00590333a550e7b78
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.click(Unknown Source)
+	at Pages.DFS.TeamsPage.clickViewTeam(TeamsPage.java:27)
+	at stepDefinitions.DFS.TeamsSteps.user_click_on_view_teams_button(TeamsSteps.java:29)
+	at ✽.User click on View Teams button(file:///D:/automation/practice/src/test/resources/features/DFS/Teams.feature:10)
+</pre></div></td>
+<td>10</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update CMS Page Details", "CMS Page Module Operations in Content Management Module"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User click on Update CMS Page button&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;User click on Update CMS Page button&quot;)
+public void user_click_on_update_cms_page_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;User update title of the CMS Page&quot;)
+public void user_update_title_of_the_cms_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;User click on update CMS Page button&quot;)
+public void user_click_on_update_cms_page_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at Base.CutomizeTestNGCucmberRunner.runScenario(CutomizeTestNGCucmberRunner.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace735796751", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace735796751'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User click on Update CMS Page button&apos; and 2 other step(s) are undefined.
+You can implement these steps using the snippet(s) below:
+
+@Given(&quot;User click on Update CMS Page button&quot;)
+public void user_click_on_update_cms_page_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;User update title of the CMS Page&quot;)
+public void user_update_title_of_the_cms_page() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+@Then(&quot;User click on update CMS Page button&quot;)
+public void user_click_on_update_cms_page_button() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at Base.CutomizeTestNGCucmberRunner.runScenario(CutomizeTestNGCucmberRunner.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Financial Category Details", "Financial Category Module Operations in Finance ERP Module"</td>
+<td><div><pre>org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=131.0.6778.266)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54459ca55ac84f909c4bf2623757621c, clearElement {id=f.678F9C21BA22B30FA589557B62B44D37.d.4FD0719B77E72B841B3A82BEE3251E24.e.123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49177}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49177/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (54459ca55ac84f909c4bf2623757621c)] -&gt; id: listing-filter-toggle]
+Session ID: 54459ca55ac84f909c4bf2623757621c
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.clear(Unknown Source)
+	at Pages.FinanceERP.FinancialCategoryPage.filterFinancialCatName(FinancialCategoryPage.java:102)
+	at stepDefinitions.FinanceERP.FinancialCategoryStep.user_enter_title_in_title_financial_category_field(FinancialCategoryStep.java:60)
+	at ✽.User enter title in Title Financial Category field(file:///D:/automation/practice/src/test/resources/features/FinanceERP/FinancialCategory.feature:23)
+... Removed 5 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace2037312251", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2037312251'><pre>org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=131.0.6778.266)
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [54459ca55ac84f909c4bf2623757621c, clearElement {id=f.678F9C21BA22B30FA589557B62B44D37.d.4FD0719B77E72B841B3A82BEE3251E24.e.123}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49177}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49177/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (54459ca55ac84f909c4bf2623757621c)] -&gt; id: listing-filter-toggle]
+Session ID: 54459ca55ac84f909c4bf2623757621c
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.clear(Unknown Source)
+	at Pages.FinanceERP.FinancialCategoryPage.filterFinancialCatName(FinancialCategoryPage.java:102)
+	at stepDefinitions.FinanceERP.FinancialCategoryStep.user_enter_title_in_title_financial_category_field(FinancialCategoryStep.java:60)
+	at ✽.User enter title in Title Financial Category field(file:///D:/automation/practice/src/test/resources/features/FinanceERP/FinancialCategory.feature:23)
+</pre></div></td>
+<td>10</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation for duplicate Game name", "Games Module Operations in Master Module"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Name already exist.&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bcbbb402efae7af94ebfbe9cbd658cf, findElement {using=xpath, value=//p[.=&quot;Name already exist.&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50632/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bcbbb402efae7af94ebfbe9cbd658cf
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Master.GamesPage.addGamesExistsMsg(GamesPage.java:151)
+	at stepDefinitions.Master.GamesSteps.an_game_name_error_message_should_be_display(GamesSteps.java:327)
+	at ✽.an Game name error message &quot;Name already exist.&quot; should be display(file:///D:/automation/practice/src/test/resources/features/Master/Games.feature:34)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace665452190", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace665452190'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Name already exist.&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [6bcbbb402efae7af94ebfbe9cbd658cf, findElement {using=xpath, value=//p[.=&quot;Name already exist.&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:50632}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:50632/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 6bcbbb402efae7af94ebfbe9cbd658cf
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Master.GamesPage.addGamesExistsMsg(GamesPage.java:151)
+	at stepDefinitions.Master.GamesSteps.an_game_name_error_message_should_be_display(GamesSteps.java:327)
+	at ✽.an Game name error message &quot;Name already exist.&quot; should be display(file:///D:/automation/practice/src/test/resources/features/Master/Games.feature:34)
+</pre></div></td>
+<td>43</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Prevent SQL injection in URL", "Videos Module Operations in Master Module"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Invalid Url Passed&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b5a3e31823f4fdc3ada5572ebea16b5, findElement {using=xpath, value=//p[.=&quot;Invalid Url Passed&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir4...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51669}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51669/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b5a3e31823f4fdc3ada5572ebea16b5
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Master.VideosPage.videoURLInvalidMsg(VideosPage.java:123)
+	at stepDefinitions.Master.VideosSteps.an_error_video_url_message_should_be_displayed(VideosSteps.java:236)
+	at ✽.an error video URL message &quot;Invalid URL Passed&quot; should be displayed(file:///D:/automation/practice/src/test/resources/features/Master/Videos.feature:41)
+... Removed 3 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1449170393", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1449170393'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Invalid Url Passed&quot;]&quot;}
+  (Session info: chrome=131.0.6778.266)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [4b5a3e31823f4fdc3ada5572ebea16b5, findElement {using=xpath, value=//p[.=&quot;Invalid Url Passed&quot;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir4...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51669}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51669/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 4b5a3e31823f4fdc3ada5572ebea16b5
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
+	at Pages.Master.VideosPage.videoURLInvalidMsg(VideosPage.java:123)
+	at stepDefinitions.Master.VideosSteps.an_error_video_url_message_should_be_displayed(VideosSteps.java:236)
+	at ✽.an error video URL message &quot;Invalid URL Passed&quot; should be displayed(file:///D:/automation/practice/src/test/resources/features/Master/Videos.feature:41)
+</pre></div></td>
+<td>21</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Sports Details", "Sports Module Operations in Master Module"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User Should able to see sports updated &quot;Data Updated Successfully&quot; message&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;User Should able to see sports updated {string} message&quot;)
+public void user_should_able_to_see_sports_updated_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at Base.CutomizeTestNGCucmberRunner.runScenario(CutomizeTestNGCucmberRunner.java:25)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 25 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1795566845", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1795566845'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User Should able to see sports updated &quot;Data Updated Successfully&quot; message&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@Then(&quot;User Should able to see sports updated {string} message&quot;)
+public void user_should_able_to_see_sports_updated_message(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:136)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:136)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:136)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:132)
+	at Base.CutomizeTestNGCucmberRunner.runScenario(CutomizeTestNGCucmberRunner.java:25)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+	at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+	at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+	at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+	at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+	at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:794)
+	at org.testng.TestRunner.run(TestRunner.java:596)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+	at org.testng.TestNG.runSuites(TestNG.java:1063)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate password masking and toggle", "Manage Staff Module Operations in Staff Module"</td>
+<td><div><pre>org.junit.ComparisonFailure: text expected:&lt;[text]&gt; but was:&lt;[Password field is not displaying input.]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.Staff.ManageStaffSteps.the_password_field_should_display_the_input(ManageStaffSteps.java:575)
+	at ✽.The Password field should display the input(file:///D:/automation/practice/src/test/resources/features/Staff/ManageStaffView.feature:113)
+</pre></div><a href='#' onClick='toggleBox("stack-trace923425236", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace923425236'><pre>org.junit.ComparisonFailure: text expected:&lt;[text]&gt; but was:&lt;[Password field is not displaying input.]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at stepDefinitions.Staff.ManageStaffSteps.the_password_field_should_display_the_input(ManageStaffSteps.java:575)
+	at ✽.The Password field should display the input(file:///D:/automation/practice/src/test/resources/features/Staff/ManageStaffView.feature:113)
+</pre></div></td>
+<td>18</td>
+<td>Runner.testRunner@557caf28</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Grade Level Details", "Grade Level Module Operations in Master Module"</td>
+<td></td>
+<td>9</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate special characters in name fields", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>10</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add App Banner Details", "App Banner Module Operations in Content Management Module"</td>
+<td></td>
+<td>12</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Players Details", "Players Module Operations in DFS Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Promo code Details", "Promo code Module Operations in Marketing Module"</td>
+<td></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Teams Details", "Teams Module Operations in DFS Module"</td>
+<td></td>
+<td>9</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Notification Template Details", "Notification Template Module Operations in Marketing Module"</td>
+<td></td>
+<td>26</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Cancel adding a marketing category", "MarketingCategory Module Operations in Master Module"</td>
+<td></td>
+<td>25</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Successfully change password with matching new and confirm passwords", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>10</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View CMS Page Details", "CMS Page Module Operations in Content Management Module"</td>
+<td></td>
+<td>16</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "All devices Details Notification", "Communication campaign Module Operations in Marketing Module"</td>
+<td></td>
+<td>27</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Change password with empty new password field", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>10</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update App Banner Details", "App Banner Module Operations in Content Management Module"</td>
+<td></td>
+<td>11</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Passive Users Count", "Dashboard Module Operations"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Promo code Details", "Promo code Module Operations in Marketing Module"</td>
+<td></td>
+<td>10</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate duplicate title entry", "Videos Module Operations in Master Module"</td>
+<td></td>
+<td>28</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Notification Template Details", "Notification Template Module Operations in Marketing Module"</td>
+<td></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter operation", "Player Position Module Operations in Master Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View App Banner Details", "App Banner Module Operations in Content Management Module"</td>
+<td></td>
+<td>20</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation for duplicate category name", "MarketingCategory Module Operations in Master Module"</td>
+<td></td>
+<td>15</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Games Details", "Games Module Operations in Master Module"</td>
+<td></td>
+<td>13</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test back button functionality", "Videos Module Operations in Master Module"</td>
+<td></td>
+<td>14</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test cancel button functionality", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>16</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test back button functionality", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>13</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test back button functionality", "MarketingCategory Module Operations in Master Module"</td>
+<td></td>
+<td>22</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "New password and confirm password do not match", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>10</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Contest Group Details", "Contest Group Group Module Operations in DFS Module"</td>
+<td></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Amount Deposited Users Count", "Dashboard Module Operations"</td>
+<td></td>
+<td>5</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Promo Banner Details", "Promo Banner Module Operations in Content Management Module"</td>
+<td></td>
+<td>12</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Cancel password change", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>14</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate mandatory fields", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>12</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate duplicate phone entry", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>16</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate invalid email format", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>16</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Change password with a weak new password", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>10</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Videos Details", "Videos Module Operations in Master Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Promo code Details", "Promo code Module Operations in Marketing Module"</td>
+<td></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View All Rounder(Cricket) Details", "Player Position Module Operations in Master Module"</td>
+<td></td>
+<td>9</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Games Details", "Games Module Operations in Master Module"</td>
+<td></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Staff Details", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>34</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate unselected role", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>12</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Promo Banner Details", "Promo Banner Module Operations in Content Management Module"</td>
+<td></td>
+<td>18</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Videos Details", "Videos Module Operations in Master Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Contest Group Details", "Contest Group Group Module Operations in DFS Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Notification Template Details", "Notification Template Module Operations in Marketing Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Publish sport", "Sports Module Operations in Master Module"</td>
+<td></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Contests Details", "Contests Module Operations in DFS Module"</td>
+<td></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test Filter functionality", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>21</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Games Details", "Games Module Operations in Master Module"</td>
+<td></td>
+<td>33</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Players Details", "Players Module Operations in DFS Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Players Details", "Players Module Operations in DFS Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Cancel Updated Staff Details", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>22</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Promo Banner Details", "Promo Banner Module Operations in Content Management Module"</td>
+<td></td>
+<td>12</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Login Activity details", "Communication campaign Module Operations in Marketing Module"</td>
+<td></td>
+<td>12</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter League Details", "League Module Operations in DFS Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter App Banner Details", "App Banner Module Operations in Content Management Module"</td>
+<td></td>
+<td>16</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Contest Details", "Contests Module Operations in DFS Module"</td>
+<td></td>
+<td>41</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "By Contest Participation actions", "Communication campaign Module Operations in Marketing Module"</td>
+<td></td>
+<td>13</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Cancel adding a marketing category", "Videos Module Operations in Master Module"</td>
+<td></td>
+<td>14</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Notification Template Details", "Notification Template Module Operations in Marketing Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add an empty marketing category", "Games Module Operations in Master Module"</td>
+<td></td>
+<td>21</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validation for larg MB size image uplad", "Games Module Operations in Master Module"</td>
+<td></td>
+<td>50</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Videos Details", "Videos Module Operations in Master Module"</td>
+<td></td>
+<td>6</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Contest Group Group Details", "Contest Group Group Module Operations in DFS Module"</td>
+<td></td>
+<td>6</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Staff Details", "Manage Staff Module Operations in Staff Module"</td>
+<td></td>
+<td>12</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Contests Details", "Contests Module Operations in DFS Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View League Details", "League Module Operations in DFS Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Teams Details", "Teams Module Operations in DFS Module"</td>
+<td></td>
+<td>9</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Contest Group Details", "Contest Group Group Module Operations in DFS Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View MarketingCategory Details", "MarketingCategory Module Operations in Master Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Registered User Count", "Dashboard Module Operations"</td>
+<td></td>
+<td>5</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Sports Details", "Sports Module Operations in Master Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Grade Level Details", "Grade Level Module Operations in Master Module"</td>
+<td></td>
+<td>9</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add Financial Category Details", "Financial Category Module Operations in Finance ERP Module"</td>
+<td></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Contests Details", "Contests Module Operations in DFS Module"</td>
+<td></td>
+<td>9</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter operation", "MarketingCategory Module Operations in Master Module"</td>
+<td></td>
+<td>11</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Promo Banner Details", "Promo Banner Module Operations in Content Management Module"</td>
+<td></td>
+<td>16</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Financial Category Details", "Financial Category Module Operations in Finance ERP Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Promo code Details", "Promo code Module Operations in Marketing Module"</td>
+<td></td>
+<td>26</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Games Details", "Games Module Operations in Master Module"</td>
+<td></td>
+<td>8</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate mandatory fields", "Videos Module Operations in Master Module"</td>
+<td></td>
+<td>14</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add an empty marketing category", "MarketingCategory Module Operations in Master Module"</td>
+<td></td>
 <td>19</td>
-<td>Runner.testRunner@7b02881e</td></tr>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Contest Details", "Contests Module Operations in DFS Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Cancel adding game", "Games Module Operations in Master Module"</td>
+<td></td>
+<td>15</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update League Details", "League Module Operations in DFS Module"</td>
+<td></td>
+<td>7</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "SignUp Activity", "Communication campaign Module Operations in Marketing Module"</td>
+<td></td>
+<td>9</td>
+<td>Runner.testRunner@557caf28</td></tr>
+<tr>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Active Users Count", "Dashboard Module Operations"</td>
+<td></td>
+<td>5</td>
+<td>Runner.testRunner@557caf28</td></tr>
 </table><p>
 </body>
 </html>

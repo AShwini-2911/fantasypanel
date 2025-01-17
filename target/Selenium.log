@@ -53,3 +53,121 @@ Added At 25-05-2024
 ID Title Image Target Url Action
 1 Test Banner http://skyonliners.com/demo/gammingle-web/webadmin/promo_banner
 
+2025-01-17 14:57:36 [INFO ] [PlayersSteps] - [user_click_on_view_players_button] User clicked on view Players button
+2025-01-17 14:58:08 [INFO ] [TeamsSteps] - [user_click_on_view_teams_button] User clicked on View Teams button
+2025-01-17 14:58:42 [INFO ] [DashboardSteps] - [the_user_gets_the_registered_user_count] Console Output: User get registered user count
+70
+
+2025-01-17 14:58:50 [INFO ] [DashboardSteps] - [the_user_gets_the_active_users_count] Console Output: User get Active user count
+66
+
+2025-01-17 14:59:00 [INFO ] [DashboardSteps] - [the_user_gets_the_passive_users_count] Console Output: User get Passive user count
+4
+
+2025-01-17 14:59:09 [INFO ] [DashboardSteps] - [the_user_gets_the_amount_deposited_users_count] Console Output: User get amount deposited user count
+37.06K
+
+2025-01-17 15:03:50 [INFO ] [GamesSteps] - [user_click_on_add_games_button] User clicked on Add Games button
+2025-01-17 15:04:15 [INFO ] [GamesSteps] - [user_click_on_games_submit] Game Added
+2025-01-17 15:04:17 [INFO ] [GamesSteps] - [user_should_able_to_see_games_success_message] Success: Console Output is as expected: Data Added Successfully
+2025-01-17 15:04:26 [INFO ] [GamesSteps] - [user_click_on_add_games_button] User clicked on Add Games button
+2025-01-17 15:04:38 [INFO ] [GamesSteps] - [user_click_on_games_submit] Game Added
+2025-01-17 15:04:40 [INFO ] [GamesSteps] - [games_name_border_color_should_be_red] Success: Console Output is as expected: Border Color: rgb(245, 82, 82)
+
+2025-01-17 15:04:49 [INFO ] [GamesSteps] - [user_click_on_add_games_button] User clicked on Add Games button
+2025-01-17 15:04:58 [INFO ] [GamesSteps] - [user_should_able_to_see_games_listing_page] 
+Console Output: Screenshot captured and attached to the report: Games Listing
+
+2025-01-17 15:05:09 [INFO ] [GamesSteps] - [user_click_on_add_games_button] User clicked on Add Games button
+2025-01-17 15:05:34 [INFO ] [GamesSteps] - [user_click_on_games_submit] Game Added
+2025-01-17 15:05:58 [INFO ] [GamesSteps] - [user_click_on_add_games_button] User clicked on Add Games button
+2025-01-17 15:06:38 [INFO ] [GamesSteps] - [an_game_image_should_less_than_one_mb_should_display] Success: Console Output is as expected: The image must not be greater than 1 mb.
+2025-01-17 15:06:47 [INFO ] [GamesSteps] - [user_click_on_view_games_button] User clicked on View Games button
+2025-01-17 15:06:48 [INFO ] [GamesSteps] - [user_should_able_to_see_the_games_details] Viewed Games Detailed
+2025-01-17 15:06:49 [INFO ] [GamesSteps] - [user_should_able_to_see_the_games_details] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Sequence 6</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Link http://skyonliners.com/demo/gammingle-web/webadmin/video</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Status Active</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Image</td></tr></table>
+2025-01-17 15:06:58 [INFO ] [GamesSteps] - [user_click_on_update_games_button1] User clicked on update Games button
+2025-01-17 15:07:04 [INFO ] [GamesSteps] - [an_game_updated_successfully_should_display] Success: Console Output is as expected: Data Updated Successfully
+2025-01-17 15:07:17 [INFO ] [GamesSteps] - [user_click_on_filter_games_button] User clicked on Filter Games button
+2025-01-17 15:07:17 [INFO ] [GamesSteps] - [user_should_able_to_filtered_games_data] Console Output3: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Id Name Action</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1 Hairy</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2 Hairy</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>3 Hairy</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>4 Hairy</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>5 Hairy</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>6 Hairy</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>7 Hairy Potter</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>8 Un</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>9 Century Chase</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>10 Uno</td></tr></table>
+2025-01-17 15:07:29 [INFO ] [GamesSteps] - [user_should_able_to_see_the_grade_level_details] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Grade Level Grade 7</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Accumulated Deposit 100000000</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Accumulated Playmore 0</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Points 100000</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Percentage 11</td></tr></table>
+2025-01-17 15:07:42 [INFO ] [GamesSteps] - [an_grade_level_updated_successfully_should_display] Success: Console Output is as expected: Data Updated Successfully
+2025-01-17 15:08:42 [INFO ] [ManageStaffSteps] - [marketing_category_name_border_color_should_be_red] Success: Console Output is as expected: Border Color: rgb(245, 82, 82)
+
+2025-01-17 15:09:09 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_category_listing_page] 
+Console Output: Screenshot captured and attached to the report: Marketing Category Listing
+
+2025-01-17 15:09:27 [INFO ] [ManageStaffSteps] - [an_category_error_message_should_be_display] Success: Console Output is as expected: Category already exist.
+2025-01-17 15:09:52 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_category_listing_page] 
+Console Output: Screenshot captured and attached to the report: Marketing Category Listing
+
+2025-01-17 15:10:02 [INFO ] [ManageStaffSteps] - [i_should_see_the_details_of_the_category] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Id Name Action</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1 Social media marketing</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2 Test Data</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>3 1 4</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>4 1</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>5 Print marketing</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>6 Print</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>7 Content marketing</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>8 Affiliate marketing</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>9 Aut</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>10 Auto</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Showing 1 to 10 of 47 entries</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Previous</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>3</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>4</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>5</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Next</td></tr></table>
+2025-01-17 15:11:28 [INFO ] [GamesSteps] - [i_should_see_the_details_of_the_sports] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Manage Sports</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Filter</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'></td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Id Name Team Player Count Publish Action</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>1 Basketball 5</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>2 Football 7</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>3 TableTennis 2</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>4 Cricket 11</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>5 Rugby 13</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>6 Volleyball 7</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Showing 1 to 6 of 6 entries</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Previous</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>1</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Next</td></tr></table>
+2025-01-17 15:11:38 [INFO ] [GamesSteps] - [user_click_on_update_sports_button1] User clicked on update Sports button
+2025-01-17 15:11:48 [INFO ] [GamesSteps] - [user_click_on_filter_sports_button] User clicked on Filter Sports button
+2025-01-17 15:12:08 [INFO ] [VideosSteps] - [user_click_on_add_videos_button] User clicked on Add Videos button
+2025-01-17 15:12:34 [INFO ] [VideosSteps] - [user_click_on_add_videos_button] User clicked on Add Videos button
+2025-01-17 15:12:40 [INFO ] [VideosSteps] - [video_title_border_color_should_be_red_indicating_that_field_is_mandatory] Success: Console Output is as expected: Border Color: rgb(245, 82, 82)
+
+2025-01-17 15:12:51 [INFO ] [VideosSteps] - [user_click_on_add_videos_button] User clicked on Add Videos button
+2025-01-17 15:12:58 [INFO ] [VideosSteps] - [user_should_able_to_see_video_listing_page] 
+Console Output: Screenshot captured and attached to the report: Videos Listing
+
+2025-01-17 15:13:07 [INFO ] [VideosSteps] - [user_click_on_add_videos_button] User clicked on Add Videos button
+2025-01-17 15:13:15 [INFO ] [VideosSteps] - [user_should_able_to_see_video_listing_page] 
+Console Output: Screenshot captured and attached to the report: Videos Listing
+
+2025-01-17 15:13:24 [INFO ] [VideosSteps] - [user_click_on_add_videos_button] User clicked on Add Videos button
+2025-01-17 15:14:05 [INFO ] [VideosSteps] - [user_click_on_add_videos_button] User clicked on Add Videos button
+2025-01-17 15:14:10 [INFO ] [VideosSteps] - [an_video_already_exist_error_message_should_be_displayed_indicating] Success: Console Output is as expected: Video already exist.
+2025-01-17 15:14:52 [INFO ] [ManageStaffSteps] - [user_click_on_view_staff_button] Navigated to Manage Staff view module
+2025-01-17 15:14:52 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_the_staff_details] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Full Name Test User</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Role admin</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Email john.doe@example.com</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Phone 9876543210</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Staff Status Active</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>Added At 26-12-2024</td></tr></table>
+2025-01-17 15:15:08 [INFO ] [ManageStaffSteps] - [user_click_on_update_staff_button] Navigated to Manage Staff update module
+2025-01-17 15:15:10 [INFO ] [ManageStaffSteps] - [user_should_able_to_print_the_message] Success: Console Output is as expected: Data Updated Successfully
+2025-01-17 15:15:29 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_user_name_in_filtered_data] Console Output3: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Id Name Email ID Phone Role Action</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1 Test User john.doe@example.com 9876543210 Admin</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2 Test User testuser@gmail.com 1111111111 Admin</td></tr></table>
+2025-01-17 15:15:43 [INFO ] [ManageStaffSteps] - [user_click_on_update_staff_button] Navigated to Manage Staff update module
+2025-01-17 15:15:48 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_staff_listing_page] 
+Console Output: Screenshot captured and attached to the report: Staff Listing
+
+2025-01-17 15:15:48 [INFO ] [ManageStaffSteps] - [user_search_for_invalid_updated_user_name] user search for Teste name
+2025-01-17 15:15:53 [INFO ] [ManageStaffSteps] - [user_should_not_get_filtered_data] No matching records
+2025-01-17 15:15:53 [INFO ] [ManageStaffSteps] - [user_should_not_get_filtered_data] 
+Console Output: No matching records found
+
+2025-01-17 15:16:06 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_updated_reset_password_message] Success: Console Output is as expected: Password updated successfully
+2025-01-17 15:16:18 [INFO ] [ManageStaffSteps] - [user_should_able_to_mismatch_password_message] Success: Console Output is as expected: Both password and confirm password should be matched!
+2025-01-17 15:16:30 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_weak_password_message] Success: Console Output is as expected: The new password must be at least 8 characters.,The confirm password must be at least 8 characters.
+2025-01-17 15:16:42 [INFO ] [ManageStaffSteps] - [the_confirm_password_field_border_color_should_be_red] Success: Console Output is as expected: Border Color: rgb(245, 82, 82)
+
+2025-01-17 15:17:01 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_staff_listing_page] 
+Console Output: Screenshot captured and attached to the report: Staff Listing
+
+2025-01-17 15:17:44 [INFO ] [ManageStaffSteps] - [the_first_name_field_border_color_should_be_red] Success: Console Output is as expected: Border Color: rgb(245, 82, 82)
+
+2025-01-17 15:18:04 [INFO ] [ManageStaffSteps] - [the_email_field_border_color_should_be_red] Success: Console Output is as expected: Border Color: rgb(245, 82, 82)
+
+2025-01-17 15:18:19 [INFO ] [ManageStaffSteps] - [the_password_field_should_mask_the_input] password
+2025-01-17 15:18:43 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_staff_listing_page] 
+Console Output: Screenshot captured and attached to the report: Staff Listing
+
+2025-01-17 15:19:01 [INFO ] [ManageStaffSteps] - [an_error_message_should_be_displayed_indicating] Success: Console Output is as expected: Mobile number already exist.
+2025-01-17 15:19:18 [INFO ] [ManageStaffSteps] - [an_error_message_should_be_displayed_on_the_role_field] Success: Console Output is as expected: The role field is required.
+2025-01-17 15:19:48 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_staff_listing_page] 
+Console Output: Screenshot captured and attached to the report: Staff Listing
+
+2025-01-17 15:20:12 [INFO ] [ManageStaffSteps] - [user_should_able_to_see_user_name_in_filtered_data] Console Output3: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Id Name Email ID Phone Role Action</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1 Test User john.doe@example.com 9876543210 Admin</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2 Test User testuser@gmail.com 1111111111 Admin</td></tr></table>
+2025-01-17 15:20:23 [INFO ] [UserManagementSteps] - [i_navigate_to_the_user_management_module] Navigated to User Management Module
+2025-01-17 15:20:23 [INFO ] [UserManagementSteps] - [user_clicks_on_the_filter_button] Clicked on the Filter button in User Management
+2025-01-17 15:20:26 [INFO ] [UserManagementSteps] - [user_enters_in_the_name_filter] Entered name in the filter: Test
+2025-01-17 15:20:27 [INFO ] [UserManagementSteps] - [user_should_see_filtered_data_displayed_in_the_table] Actual Table Data:
+Id	Name	Phone	Email	KYC Status	Status	Action	
+1	Test	1144178855	test011@gmail.com	Pending	Blocked Withdrawal		
+2	Test	1144778855	test11@gmail.com	Pending	Active		
+3	Test ten	1111111111	demo10@gmail.com	Approved	Active		
+4	Tester	8767748170	tester@gmail.com	Approved	Active		
+
+2025-01-17 15:20:27 [ERROR] [UserManagementSteps] - [compareTableDataWithExpected] No match found for expected data in row: Id	Name	Phone	Email	KYC Status	Status	Action	
+2025-01-17 15:20:27 [INFO ] [UserManagementSteps] - [compareTableDataWithExpected] Found matching data in the table: 1	Test	1144178855	test011@gmail.com	Pending	Blocked Withdrawal		
+2025-01-17 15:20:27 [INFO ] [UserManagementSteps] - [compareTableDataWithExpected] Found matching data in the table: 2	Test	1144778855	test11@gmail.com	Pending	Active		
+2025-01-17 15:20:27 [INFO ] [UserManagementSteps] - [compareTableDataWithExpected] Found matching data in the table: 3	Test ten	1111111111	demo10@gmail.com	Approved	Active		
+2025-01-17 15:20:27 [INFO ] [UserManagementSteps] - [compareTableDataWithExpected] Found matching data in the table: 4	Tester	8767748170	tester@gmail.com	Approved	Active		
+2025-01-17 15:20:27 [ERROR] [UserManagementSteps] - [user_should_see_filtered_data_displayed_in_the_table] Data does not match the expected value.
