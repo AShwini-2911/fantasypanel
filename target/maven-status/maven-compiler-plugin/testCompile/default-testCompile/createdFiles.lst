@@ -1,0 +1,5 @@
+stepDefinitions\Master\MasterSteps.class
+stepDefinitions\LoginSteps.class
+Runner\testRunner.class
+stepDefinitions\Master\SportsSteps.class
+stepDefinitions\Master\MarketingCategorySteps.class
