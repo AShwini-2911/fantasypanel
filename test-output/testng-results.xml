@@ -1,188 +1,140 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-01-22T15:33:58 IST" name="Default suite" finished-at="2025-01-22T15:36:00 IST" duration-ms="122398">
+  <suite started-at="2025-01-22T18:22:11 IST" name="Default suite" finished-at="2025-01-22T18:23:57 IST" duration-ms="105944">
     <groups>
       <group name="cucumber">
         <method signature="CutomizeTestNGCucmberRunner.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" name="runScenario" class="Base.CutomizeTestNGCucmberRunner"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2025-01-22T15:33:58 IST" name="Default test" finished-at="2025-01-22T15:36:00 IST" duration-ms="122398">
+    <test started-at="2025-01-22T18:22:11 IST" name="Default test" finished-at="2025-01-22T18:23:57 IST" duration-ms="105944">
       <class name="Runner.testRunner">
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:33:58 IST" name="setUpClass" finished-at="2025-01-22T15:33:59 IST" duration-ms="1069" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:22:11 IST" name="setUpClass" finished-at="2025-01-22T18:22:12 IST" duration-ms="1076" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:33:59 IST" name="CreateDriver" finished-at="2025-01-22T15:34:06 IST" duration-ms="6553" status="PASS">
+        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:22:12 IST" name="CreateDriver" finished-at="2025-01-22T18:22:18 IST" duration-ms="5699" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateDriver -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:34:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T15:34:16 IST" duration-ms="9906" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:22:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T18:22:32 IST" duration-ms="13566" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Enter valid details of FAQ"]]>
+                <![CDATA["Update System Email and Contact Number"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["FAQ Module Operations"]]>
+                <![CDATA["Settings Module Operations in General settings Module"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:34:16 IST" name="afterSuite" finished-at="2025-01-22T15:34:16 IST" duration-ms="211" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:22:32 IST" name="afterSuite" finished-at="2025-01-22T18:22:33 IST" duration-ms="1851" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:34:16 IST" name="CreateDriver" finished-at="2025-01-22T15:34:22 IST" duration-ms="5745" status="PASS">
+        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:22:33 IST" name="CreateDriver" finished-at="2025-01-22T18:22:38 IST" duration-ms="5052" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateDriver -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:34:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T15:34:31 IST" duration-ms="9475" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:22:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T18:22:52 IST" duration-ms="13628" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Submit FAQ without filling data"]]>
+                <![CDATA["Update Social media links"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["FAQ Module Operations"]]>
+                <![CDATA["Settings Module Operations in General settings Module"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:34:31 IST" name="afterSuite" finished-at="2025-01-22T15:34:31 IST" duration-ms="200" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:22:52 IST" name="afterSuite" finished-at="2025-01-22T18:22:52 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:34:31 IST" name="CreateDriver" finished-at="2025-01-22T15:34:36 IST" duration-ms="5244" status="PASS">
+        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:22:52 IST" name="CreateDriver" finished-at="2025-01-22T18:22:57 IST" duration-ms="5073" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateDriver -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:34:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T15:34:51 IST" duration-ms="14311" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:22:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T18:23:11 IST" duration-ms="13193" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Cancel the FAQ changes"]]>
+                <![CDATA["Update Deposite and withdraw amount"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["FAQ Module Operations"]]>
+                <![CDATA["Settings Module Operations in General settings Module"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:34:51 IST" name="afterSuite" finished-at="2025-01-22T15:34:51 IST" duration-ms="217" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:23:11 IST" name="afterSuite" finished-at="2025-01-22T18:23:12 IST" duration-ms="1815" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:34:51 IST" name="CreateDriver" finished-at="2025-01-22T15:34:56 IST" duration-ms="5371" status="PASS">
+        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:23:12 IST" name="CreateDriver" finished-at="2025-01-22T18:23:18 IST" duration-ms="5309" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateDriver -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:34:56 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T15:35:05 IST" duration-ms="8972" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:23:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T18:23:31 IST" duration-ms="13521" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Duplicate data error msg"]]>
+                <![CDATA["Update App links"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["FAQ Module Operations"]]>
+                <![CDATA["Settings Module Operations in General settings Module"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:05 IST" name="afterSuite" finished-at="2025-01-22T15:35:06 IST" duration-ms="308" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:23:31 IST" name="afterSuite" finished-at="2025-01-22T18:23:32 IST" duration-ms="344" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:06 IST" name="CreateDriver" finished-at="2025-01-22T15:35:11 IST" duration-ms="5256" status="PASS">
+        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:23:32 IST" name="CreateDriver" finished-at="2025-01-22T18:23:37 IST" duration-ms="5405" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CreateDriver -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T15:35:23 IST" duration-ms="11975" status="PASS">
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:23:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T18:23:50 IST" duration-ms="13301" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["View FAQ Details"]]>
+                <![CDATA["Update versions"]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["FAQ Module Operations"]]>
+                <![CDATA["Settings Module Operations in General settings Module"]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:23 IST" name="afterSuite" finished-at="2025-01-22T15:35:23 IST" duration-ms="225" status="PASS">
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:23:50 IST" name="afterSuite" finished-at="2025-01-22T18:23:51 IST" duration-ms="213" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:23 IST" name="CreateDriver" finished-at="2025-01-22T15:35:28 IST" duration-ms="4805" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T15:35:37 IST" duration-ms="8656" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Edit FAQ with a valid image"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["FAQ Module Operations"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:37 IST" name="afterSuite" finished-at="2025-01-22T15:35:37 IST" duration-ms="271" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method is-config="true" signature="CreateDriver()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:37 IST" name="CreateDriver" finished-at="2025-01-22T15:35:42 IST" duration-ms="4824" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CreateDriver -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2025-01-22T15:35:52 IST" duration-ms="10624" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA["Filter FAQ Question name and which has In-active status"]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA["FAQ Module Operations"]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="afterSuite()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:52 IST" name="afterSuite" finished-at="2025-01-22T15:35:52 IST" duration-ms="202" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterSuite -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T15:35:52 IST" name="tearDownClass" finished-at="2025-01-22T15:36:00 IST" duration-ms="7912" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.testRunner@77f1baf5]" started-at="2025-01-22T18:23:51 IST" name="tearDownClass" finished-at="2025-01-22T18:23:57 IST" duration-ms="6607" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->

@@ -25,13 +25,16 @@ public class GeneralSettingsSetps {
     }
     
 	@Given("User navigate to the General Settings Module")
-	public void user_navigate_to_the_general_settings_module() {
+	public void user_navigate_to_the_general_settings_module() throws InterruptedException {
 		WebElement leftSection = driver.findElement(By.xpath("//div[@class=\"ps__thumb-y\"]"));
 		leftSection.click();
 		Actions actions = new Actions(driver);
 		actions.dragAndDropBy(leftSection, 0, 300).perform(); // Scroll down one step in the left section
 
+		
 	   generalSet.clickGeneralSettings();
+	   Thread.sleep(5000);
+	   log.info("Gs");
 		
 	}
 
@@ -41,4 +44,10 @@ public class GeneralSettingsSetps {
 	   generalSet.clickAvatar();
 	}
 	
+	@Given("User select the settings Module")
+	public void user_select_the_settings_module() {
+		log.info("settings");
+	   generalSet.clickSettings();
+	   
+	}
 }

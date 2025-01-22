@@ -20,6 +20,9 @@ public class GeneralSettingsPage  extends DriverManager{
 	@FindBy(partialLinkText = "Avatar")
 	private WebElement avatar;
 	
+	@FindBy(xpath = "//i[@class=\"fa fa-cog\"]")
+	private WebElement Settings;
+	
 	public void clickGeneralSettings() {
 		GeneralSettings.click();
 	}
@@ -29,4 +32,7 @@ public class GeneralSettingsPage  extends DriverManager{
 	}
 
 
+	public void clickSettings() {
+		Settings.click();
+	}
 }
