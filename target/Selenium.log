@@ -171,3 +171,214 @@ Id	Name	Phone	Email	KYC Status	Status	Action
 2025-01-17 15:20:27 [INFO ] [UserManagementSteps] - [compareTableDataWithExpected] Found matching data in the table: 3	Test ten	1111111111	demo10@gmail.com	Approved	Active		
 2025-01-17 15:20:27 [INFO ] [UserManagementSteps] - [compareTableDataWithExpected] Found matching data in the table: 4	Tester	8767748170	tester@gmail.com	Approved	Active		
 2025-01-17 15:20:27 [ERROR] [UserManagementSteps] - [user_should_see_filtered_data_displayed_in_the_table] Data does not match the expected value.
+2025-01-20 12:07:29 [INFO ] [AvatarSteps] - [add_avatar_image_field_border_color_should_be_red] Success: Console Output is as expected: Border Color: rgb(245, 82, 82)
+
+2025-01-20 12:07:51 [INFO ] [AvatarSteps] - [user_should_be_avatar_listing_page] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Id Image Action</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>3</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>4</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>5</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>6</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>7</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>8</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>9</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>10</td></tr></table>
+2025-01-20 12:18:40 [INFO ] [DashboardSteps] - [the_user_gets_the_registered_user_count] Console Output: User get registered user count
+70
+
+2025-01-20 12:18:46 [INFO ] [DashboardSteps] - [the_user_gets_the_active_users_count] Console Output: User get Active user count
+66
+
+2025-01-20 12:18:53 [INFO ] [DashboardSteps] - [the_user_gets_the_passive_users_count] Console Output: User get Passive user count
+4
+
+2025-01-20 12:18:59 [INFO ] [DashboardSteps] - [the_user_gets_the_amount_deposited_users_count] Console Output: User get amount deposited user count
+37.06K
+
+2025-01-20 12:35:10 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:35:18 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:35:18 [INFO ] [AvatarSteps] - [user_should_see_a_success_message] Add avatar
+2025-01-20 12:35:20 [INFO ] [AvatarSteps] - [user_should_see_a_success_message] Success: Console Output is as expected: Data Added Successfully
+2025-01-20 12:36:35 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:36:42 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:37:00 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:37:07 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:37:10 [INFO ] [AvatarSteps] - [add_avatar_image_field_border_color_should_be_red] Success: Console Output is as expected: Border Color: rgb(245, 82, 82)
+
+2025-01-20 12:37:18 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:37:26 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:37:33 [INFO ] [AvatarSteps] - [user_should_be_avatar_listing_page] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Id Image Action</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>3</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>4</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>5</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>6</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>7</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>8</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>9</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>10</td></tr></table>
+2025-01-20 12:38:09 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:38:17 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:38:17 [INFO ] [AvatarSteps] - [user_should_see_a_success_message] Add avatar
+2025-01-20 12:38:19 [INFO ] [AvatarSteps] - [user_should_see_a_success_message] Success: Console Output is as expected: Data Added Successfully
+2025-01-20 12:38:27 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:38:34 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:38:53 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:39:00 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:39:03 [INFO ] [AvatarSteps] - [add_avatar_image_field_border_color_should_be_red] Success: Console Output is as expected: Border Color: rgb(245, 82, 82)
+
+2025-01-20 12:39:10 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:39:18 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:39:25 [INFO ] [AvatarSteps] - [user_should_be_avatar_listing_page] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Id Image Action</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>3</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>4</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>5</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>6</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>7</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>8</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>9</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>10</td></tr></table>
+2025-01-20 12:41:11 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:41:19 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:41:19 [INFO ] [AvatarSteps] - [user_should_see_a_success_message] Add avatar
+2025-01-20 12:41:21 [INFO ] [AvatarSteps] - [user_should_see_a_success_message] Success: Console Output is as expected: Data Added Successfully
+2025-01-20 12:41:29 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:41:37 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:42:05 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:42:13 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:42:15 [INFO ] [AvatarSteps] - [add_avatar_image_field_border_color_should_be_red] Success: Console Output is as expected: Border Color: rgb(245, 82, 82)
+
+2025-01-20 12:42:24 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:42:31 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:42:39 [INFO ] [AvatarSteps] - [user_should_be_avatar_listing_page] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Id Image Action</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>3</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>4</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>5</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>6</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>7</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>8</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>9</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>10</td></tr></table>
+2025-01-20 12:43:35 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:43:42 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:44:26 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:44:34 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 12:45:23 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 12:45:30 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:18:24 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:18:32 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:18:32 [INFO ] [AvatarSteps] - [user_should_able_to_see_the_avatar_details] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Id Image Action</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>3</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>4</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>5</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>6</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>7</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>8</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>9</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>10</td></tr></table>
+2025-01-20 15:18:40 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:18:48 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:19:09 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:19:16 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:26:28 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:26:35 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:26:35 [INFO ] [AvatarSteps] - [user_should_able_to_see_the_avatar_details] Console Output: <table border='1' cellpadding='5' cellspacing='0' style='border-collapse: collapse;'><tr><th style='background-color:#4CAF50; color:white;'>Console Output</th></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>Id Image Action</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>1</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>2</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>3</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>4</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>5</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>6</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>7</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>8</td></tr><tr style='background-color:#ffffff;'><td style='color:#000000;'>9</td></tr><tr style='background-color:#f2f2f2;'><td style='color:#000000;'>10</td></tr></table>
+2025-01-20 15:26:45 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:26:52 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:26:56 [INFO ] [AvatarSteps] - [avatar_update_success_message_should_be_displayed] Success: Console Output is as expected: Data Updated Successfully
+2025-01-20 15:27:03 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:27:11 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:36:58 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:37:06 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:42:11 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:42:19 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:43:58 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:44:05 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:53:14 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:53:21 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:53:22 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button 
+2025-01-20 15:56:49 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:56:57 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:56:57 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 15:58:47 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 15:58:55 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 15:58:55 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 15:58:56 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:02:29 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:02:37 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:02:37 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:02:39 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:02:39 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:11:10 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:11:18 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:11:18 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:11:21 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:11:21 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:11:26 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:11:26 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] new tab
+2025-01-20 16:11:26 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] image url
+2025-01-20 16:13:23 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:13:31 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:13:31 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:13:32 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:13:32 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:13:37 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:13:37 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] new tab
+2025-01-20 16:13:37 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] https://gammingle-admin-file-s3.s3.amazonaws.com/avatar/c066328d-b86e-466e-b5cc-908d89cc832c.jpeg
+2025-01-20 16:14:33 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:14:40 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:14:40 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:14:42 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:14:42 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:14:47 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:14:47 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] new tab
+2025-01-20 16:14:47 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] https://gammingle-admin-file-s3.s3.amazonaws.com/avatar/c066328d-b86e-466e-b5cc-908d89cc832c.jpeg
+2025-01-20 16:15:37 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:15:45 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:15:46 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:15:47 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:15:47 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:15:52 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:15:52 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] new tab
+2025-01-20 16:15:52 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] https://gammingle-admin-file-s3.s3.amazonaws.com/avatar/c066328d-b86e-466e-b5cc-908d89cc832c.jpeg
+2025-01-20 16:18:23 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:18:30 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:18:30 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:18:32 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:18:32 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:18:37 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:18:37 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] new tab
+2025-01-20 16:18:37 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] https://gammingle-admin-file-s3.s3.amazonaws.com/avatar/c066328d-b86e-466e-b5cc-908d89cc832c.jpeg
+2025-01-20 16:19:34 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:19:41 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:19:41 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:19:43 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:19:43 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:19:48 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:19:48 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] new tab
+2025-01-20 16:19:48 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] https://gammingle-admin-file-s3.s3.amazonaws.com/avatar/c066328d-b86e-466e-b5cc-908d89cc832c.jpeg
+2025-01-20 16:19:48 [INFO ] [AvatarSteps] - [the_user_closes_the_preview_tab] new tab closed
+2025-01-20 16:20:44 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:20:51 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:20:52 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:20:53 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:20:53 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:20:58 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:20:58 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] new tab
+2025-01-20 16:20:58 [INFO ] [AvatarSteps] - [the_preview_image_url_should_be_correct] https://gammingle-admin-file-s3.s3.amazonaws.com/avatar/c066328d-b86e-466e-b5cc-908d89cc832c.jpeg
+2025-01-20 16:20:58 [INFO ] [AvatarSteps] - [the_user_closes_the_preview_tab] new tab closed
+2025-01-20 16:24:29 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:24:36 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:24:36 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:24:38 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:24:39 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:24:44 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:25:37 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:25:45 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:25:45 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:25:47 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:25:47 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:25:52 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:25:52 [INFO ] [AvatarSteps] - [the_user_closes_the_preview_tab] new tab closed
+2025-01-20 16:27:57 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:28:04 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:28:04 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:28:06 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:28:06 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:28:11 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:28:11 [INFO ] [AvatarSteps] - [the_user_closes_the_preview_tab] new tab closed
+2025-01-20 16:29:23 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:29:31 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:29:31 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:29:33 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:29:33 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:29:38 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 16:29:38 [INFO ] [AvatarSteps] - [the_user_closes_the_preview_tab] new tab closed
+2025-01-20 16:30:54 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 16:31:01 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 16:31:01 [INFO ] [AvatarSteps] - [clicks_on_the_preview_button] preview button
+2025-01-20 16:31:02 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab is opened
+2025-01-20 16:31:02 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab image
+2025-01-20 16:31:07 [INFO ] [AvatarSteps] - [the_image_preview_should_open_in_a_new_browser_tab] new tab opened
+2025-01-20 17:37:12 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 17:37:20 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 17:37:22 [INFO ] [AvatarSteps] - [the_status_from_the_viewed_data_is_verified_as_inactive] test fail
+2025-01-20 17:38:16 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 17:38:23 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 17:38:25 [INFO ] [AvatarSteps] - [the_status_from_the_viewed_data_is_verified_as_inactive] Active
+2025-01-20 17:39:19 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 17:39:27 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 17:39:33 [INFO ] [AvatarSteps] - [the_status_from_the_viewed_data_is_verified_as_inactive] In-Active
+2025-01-20 17:40:39 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 17:40:47 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 17:40:53 [INFO ] [AvatarSteps] - [the_status_from_the_viewed_data_is_verified_as_inactive] test fail
+2025-01-20 17:42:39 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 17:43:07 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 17:43:14 [INFO ] [AvatarSteps] - [the_status_from_the_viewed_data_is_verified_as_inactive]  In-Active
+2025-01-20 17:43:14 [INFO ] [AvatarSteps] - [the_status_from_the_viewed_data_is_verified_as_inactive] In-Active
+2025-01-20 17:46:27 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 17:46:35 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 17:46:41 [INFO ] [AvatarSteps] - [the_status_from_the_viewed_data_is_verified_as_inactive] In-Active
+2025-01-20 17:46:41 [INFO ] [AvatarSteps] - [the_status_from_the_viewed_data_is_verified_as_inactive] test pass
+2025-01-20 17:48:44 [INFO ] [GeneralSettingsSetps] - [user_navigate_to_the_general_settings_module] GS
+2025-01-20 17:48:52 [INFO ] [GeneralSettingsSetps] - [user_select_the_avatar_module] Avatar
+2025-01-20 17:48:59 [INFO ] [AvatarSteps] - [the_status_from_the_viewed_data_is_verified_as_inactive] In-Active
+2025-01-20 17:48:59 [INFO ] [AvatarSteps] - [the_status_from_the_viewed_data_is_verified_as_inactive] In-Active Status

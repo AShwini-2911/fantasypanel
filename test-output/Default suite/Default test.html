@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>7/2/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Jan 17 14:46:31 IST 2025</td>
+<td>Started on:</td><td>Mon Jan 20 17:48:32 IST 2025</td>
 </tr>
-<tr><td>Total time:</td><td>187 seconds (187179 ms)</td>
+<tr><td>Total time:</td><td>32 seconds (32871 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,142 +67,6 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
-<tr><td><b>Test method</b></td>
-<td width="30%"><b>Exception</b></td>
-<td width="10%"><b>Time (seconds)</b></td>
-<td><b>Instance</b></td>
-</tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Prevent SQL injection in URL", "Videos Module Operations in Master Module"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Invalid Url Passed&quot;]&quot;}
-  (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82ad511e2ee1ca1a3a5e67fe2fc69163, findElement {using=xpath, value=//p[.=&quot;Invalid Url Passed&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64100}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64100/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82ad511e2ee1ca1a3a5e67fe2fc69163
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
-	at Pages.Master.VideosPage.videoURLInvalidMsg(VideosPage.java:123)
-	at stepDefinitions.Master.VideosSteps.an_error_video_url_message_should_be_displayed(VideosSteps.java:236)
-	at ✽.an error video URL message &quot;Invalid URL Passed&quot; should be displayed(file:///D:/automation/practice/src/test/resources/features/Master/Videos.feature:41)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1386640019", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1386640019'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Invalid Url Passed&quot;]&quot;}
-  (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [82ad511e2ee1ca1a3a5e67fe2fc69163, findElement {using=xpath, value=//p[.=&quot;Invalid Url Passed&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir1...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64100}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64100/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 82ad511e2ee1ca1a3a5e67fe2fc69163
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
-	at Pages.Master.VideosPage.videoURLInvalidMsg(VideosPage.java:123)
-	at stepDefinitions.Master.VideosSteps.an_error_video_url_message_should_be_displayed(VideosSteps.java:236)
-	at ✽.an error video URL message &quot;Invalid URL Passed&quot; should be displayed(file:///D:/automation/practice/src/test/resources/features/Master/Videos.feature:41)
-</pre></div></td>
-<td>21</td>
-<td>Runner.testRunner@557caf28</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Add a video with valid data", "Videos Module Operations in Master Module"</td>
-<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Data Added Successfully&quot;]&quot;}
-  (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b5766b0eba36d0947c7af43000f1d321, findElement {using=xpath, value=//p[.=&quot;Data Added Successfully&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63924}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63924/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b5766b0eba36d0947c7af43000f1d321
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
-	at Pages.Master.VideosPage.videoSuccessMsg(VideosPage.java:109)
-	at stepDefinitions.Master.VideosSteps.a_success_message_should_be_displayed(VideosSteps.java:118)
-	at ✽.a success message &quot;Data Added Successfully&quot; should be displayed(file:///D:/automation/practice/src/test/resources/features/Master/Videos.feature:13)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1847256931", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1847256931'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//p[.=&quot;Data Added Successfully&quot;]&quot;}
-  (Session info: chrome=131.0.6778.266)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: &apos;4.26.0&apos;, revision: &apos;8ccf0219d7&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.5&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b5766b0eba36d0947c7af43000f1d321, findElement {using=xpath, value=//p[.=&quot;Data Added Successfully&quot;]}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.266, chrome: {chromedriverVersion: 131.0.6778.264 (2d05e315153..., userDataDir: C:\WINDOWS\TEMP\scoped_dir3...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:63924}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:63924/devtoo..., se:cdpVersion: 131.0.6778.266, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b5766b0eba36d0947c7af43000f1d321
-	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:362)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy33.getText(Unknown Source)
-	at Pages.Master.VideosPage.videoSuccessMsg(VideosPage.java:109)
-	at stepDefinitions.Master.VideosSteps.a_success_message_should_be_displayed(VideosSteps.java:118)
-	at ✽.a success message &quot;Data Added Successfully&quot; should be displayed(file:///D:/automation/practice/src/test/resources/features/Master/Videos.feature:13)
-</pre></div></td>
-<td>23</td>
-<td>Runner.testRunner@557caf28</td></tr>
-</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -211,40 +75,10 @@ Session ID: b5766b0eba36d0947c7af43000f1d321
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate mandatory fields", "Videos Module Operations in Master Module"</td>
+<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify that the filter displays only Inactive status", "General Settings Module Operations in avatar Module"</td>
 <td></td>
-<td>15</td>
-<td>Runner.testRunner@557caf28</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Cancel adding a marketing category", "Videos Module Operations in Master Module"</td>
-<td></td>
-<td>16</td>
-<td>Runner.testRunner@557caf28</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "View Videos Details", "Videos Module Operations in Master Module"</td>
-<td></td>
-<td>7</td>
-<td>Runner.testRunner@557caf28</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Test back button functionality", "Videos Module Operations in Master Module"</td>
-<td></td>
-<td>15</td>
-<td>Runner.testRunner@557caf28</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate duplicate title entry", "Videos Module Operations in Master Module"</td>
-<td></td>
-<td>12</td>
-<td>Runner.testRunner@557caf28</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Filter Videos Details", "Videos Module Operations in Master Module"</td>
-<td></td>
-<td>8</td>
-<td>Runner.testRunner@557caf28</td></tr>
-<tr>
-<td title='Runner.testRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.testRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Update Videos Details", "Videos Module Operations in Master Module"</td>
-<td></td>
-<td>8</td>
-<td>Runner.testRunner@557caf28</td></tr>
+<td>20</td>
+<td>Runner.testRunner@75d4a5c2</td></tr>
 </table><p>
 </body>
 </html>

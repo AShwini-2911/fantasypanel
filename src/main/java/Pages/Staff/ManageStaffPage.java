@@ -212,7 +212,7 @@ public class ManageStaffPage extends DriverManager{
 	 }
 	 
 	 
-     //update Staff 
+     //Add Staff 
 	 @FindBy(xpath = "//i[@class=\"fa fa-plus\"]")
 	 private WebElement addStaff;
 	 

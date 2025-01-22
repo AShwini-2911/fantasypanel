@@ -27,9 +27,10 @@ public class DriverManager {
 
 	            // Configure Chrome options
 	            ChromeOptions options = new ChromeOptions();
-	            if (Boolean.parseBoolean(Util.properties("config", "Headless"))) {
-	                options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
-	            }
+	            
+//	            if (Boolean.parseBoolean(Util.properties("config", "Headless"))) {
+//	                options.addArguments("--headless", "--disable-gpu", "--window-size=1920,1080");
+//	            }
 
 	            // Create a new WebDriver instance
 	            WebDriver driver = new ChromeDriver(options);
