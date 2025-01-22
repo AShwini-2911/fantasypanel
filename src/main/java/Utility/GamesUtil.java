@@ -4,6 +4,7 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
+import Pages.FAQ.FAQPage;
 import Pages.Master.GamesPage;
 
 public class GamesUtil {
@@ -38,6 +39,10 @@ public class GamesUtil {
 	        gamesPage.updateGamesSequence(getGameProperty("games.SequenceUpdate"));
 	        
 	        gamesPage.filterGameName(getGameProperty("games.TitleFilter"));
+	        
+	      
+	        
+	        
 	    }
 
 	    

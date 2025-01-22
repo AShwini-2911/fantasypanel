@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		
-		features = "D:\\automation\\practice\\src\\test\\resources\\features\\GeneralSettings\\avatar.feature",
+		features = "C:\\Users\\User\\Desktop\\Automation\\fantasypanel\\src\\test\\resources\\features\\FAQ\\faq.feature",
 		glue = { "stepDefinitions", "Hooks" },
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }
 		//,tags = "@PinContest"
