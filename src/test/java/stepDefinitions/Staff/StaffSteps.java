@@ -34,5 +34,11 @@ public class StaffSteps {
 	  
 		staff.navigateToManageStaff();
 	}
+	
+	@Given("I select the Manage Roles Module")
+	public void i_select_the_manage_roles_module() {
+	    staff.navigateToManageRoles();
+	}
+
 
 }

@@ -26,4 +26,12 @@ public class StaffPage extends DriverManager {
 		manageStaff.click();
 	}
 
+	@FindBy(partialLinkText = "Manage Roles")
+	private WebElement ManageRoles;
+	
+	public void navigateToManageRoles() {
+		ManageRoles.click();
+	}
+	
+	
 }
