@@ -31,6 +31,7 @@ public class GeneralSettingsSetps {
 		Actions actions = new Actions(driver);
 		actions.dragAndDropBy(leftSection, 0, 300).perform(); // Scroll down one step in the left section
 
+		Util.startConsoleCapture();
 		
 	   generalSet.clickGeneralSettings();
 	   Thread.sleep(5000);
@@ -49,5 +50,16 @@ public class GeneralSettingsSetps {
 		log.info("settings");
 	   generalSet.clickSettings();
 	   
+	}
+	
+	@Given("User select the Spin Wheel Module")
+	public void user_select_the_spin_wheel_module() {
+	    log.info("Spin Wheel");
+	    generalSet.clickSpinWheel();
+	}
+	
+	@Given("User select the Application SettingsModule")
+	public void user_select_the_application_settings_module() {
+	    generalSet.clickApplicationSettings();
 	}
 }

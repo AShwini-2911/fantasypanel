@@ -35,6 +35,7 @@ public class AvatarSteps {
 	@Given("User is on the Add Avatar form page")
 	public void user_is_on_the_add_avatar_form_page() {
 	    Util.startConsoleCapture();
+	    
 	    avatar.clickAddAvatar();
 	    
 	    

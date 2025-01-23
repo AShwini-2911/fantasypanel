@@ -1,4 +1,4 @@
-@MasterModule @P1
+@MasterModule
 Feature: MarketingCategory Module Operations in Master Module
 
   Background: 
@@ -52,7 +52,7 @@ Feature: MarketingCategory Module Operations in Master Module
     And I click the save button
     Then an category update message "Data Updated Successfully" should be display
 
-@Filter @FilterMarketingCategory
+  @Filter @FilterMarketingCategory
   Scenario: Filter operation
     Given I click on Filter
     Then Enter name as "Print"

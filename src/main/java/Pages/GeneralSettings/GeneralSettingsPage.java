@@ -23,6 +23,13 @@ public class GeneralSettingsPage  extends DriverManager{
 	@FindBy(xpath = "//i[@class=\"fa fa-cog\"]")
 	private WebElement Settings;
 	
+	@FindBy(xpath = "//i[@class=\"icon-disc\"]")
+	private WebElement SpinWheel;
+	
+	@FindBy(xpath = "//a[.=\"Application Settings\"]")
+	private WebElement ApplicationSettings;
+	
+	
 	public void clickGeneralSettings() {
 		GeneralSettings.click();
 	}
@@ -34,5 +41,13 @@ public class GeneralSettingsPage  extends DriverManager{
 
 	public void clickSettings() {
 		Settings.click();
+	}
+	
+	public void clickSpinWheel() {
+		SpinWheel.click();
+	}
+	
+	public void clickApplicationSettings() {
+		ApplicationSettings.click();
 	}
 }

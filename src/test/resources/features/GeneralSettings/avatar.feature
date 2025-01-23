@@ -30,6 +30,7 @@ Feature: General Settings Module Operations in avatar Module
   #When User uploads an image file with dimensions less than 1200x700 pixels
   #And User clicks the Add avatar Submit button
   #Then User should see an error message "The image must not be greater than 1 mb."
+  
   @View @ViewAvatar
   Scenario: View Avatar Details
     When User click on View Avatar button

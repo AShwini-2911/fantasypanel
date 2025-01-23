@@ -1,4 +1,4 @@
-@MasterModule @P4
+@MasterModule
 Feature: Games Module Operations in Master Module
 
   Background: 

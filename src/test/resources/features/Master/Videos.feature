@@ -1,4 +1,4 @@
-@MasterModule @P2
+@MasterModule 
 Feature: Videos Module Operations in Master Module
 
   Background: 

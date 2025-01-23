@@ -12,7 +12,7 @@ Feature: Financial Category Module Operations in Finance ERP Module
   Scenario: View Financial Category Details
     Given User click on View Financial Category button
     Then User should able to see the Financial Category details
-#
+
   #Scenario: Update Financial Category Details
     #Given User click on Update Financial Category button
     #Then User update title of the Financial Category

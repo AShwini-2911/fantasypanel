@@ -1,4 +1,4 @@
-@MasterModule @P3
+@MasterModule
 
 Feature: Player Position Module Operations in Master Module
 
