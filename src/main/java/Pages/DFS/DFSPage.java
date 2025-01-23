@@ -36,6 +36,20 @@ public class DFSPage extends DriverManager{
 	  @FindBy(xpath = "//span[.=\"League\"]" )
 	  private WebElement League;
 	  
+	  @FindBy(xpath = "//span[.=\"Fixture\"]")
+	  private WebElement Fixture;
+	  
+	  @FindBy(xpath = "//a[.=\"Completed\"]")
+	  private WebElement fixtureCompleted;
+	  
+	  public void navigateToFixture() throws InterruptedException {
+		  Fixture.click();
+		  Thread.sleep(3000);
+	  }
+	  
+	  public void navigateToCompleted() {
+		  fixtureCompleted.click();
+	  }
 	  
 	  public void clickDFS() {
 		  DFS.click();

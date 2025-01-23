@@ -1,11 +1,12 @@
 package stepDefinitions.DFS;
 
 import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.support.PageFactory;
 
 import Base.DriverManager;
 import Pages.DFS.DFSPage;
-import io.cucumber.java.en.Given;
+import io.cucumber.java.en.*;
 
 public class DFSSteps extends DriverManager {
 	WebDriver driver;
@@ -50,6 +51,16 @@ public class DFSSteps extends DriverManager {
 	@Given("I select the League Module")
 	public void i_select_the_league_module() {
 	   DFSPages.clickLeague();
+	}
+	
+	@Given("user navigate to Fixture Module")
+	public void user_navigate_to_fixture_module() throws InterruptedException {
+	   DFSPages.navigateToFixture();
+	}
+
+	@Then("User navigate to Completed module")
+	public void user_navigate_to_completed_module() {
+	    DFSPages.navigateToCompleted();
 	}
 	
 }
