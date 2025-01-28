@@ -17,6 +17,9 @@ public class FinanceERPPage extends DriverManager {
 	 @FindBy(partialLinkText = "Financial Category")
 	 private WebElement FinancialCategory;
 	 
+	 @FindBy(xpath = "//a[.=\"Financial Transaction\"]")
+	 private WebElement financialTransaction;
+	 
 	 public void navigateToFinanceERP() {
 		 FinanceERP.click();
 	 }
@@ -25,4 +28,7 @@ public class FinanceERPPage extends DriverManager {
 		 FinancialCategory.click();
 	 }
 
+	 public void navigateToFinancialTransaction() {
+		 financialTransaction.click();
+	 }
 }

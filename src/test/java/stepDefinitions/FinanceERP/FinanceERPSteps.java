@@ -28,4 +28,8 @@ WebDriver driver;
 	}
 	
 
+	@Given("I select the Financial Transaction Module")
+	public void i_select_the_financial_transaction_module() {
+	   financePage.navigateToFinancialTransaction();
+	}
 }
