@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
 		
-		features = "C:\\Users\\mypco\\OneDrive\\Desktop\\Automation\\fantasypanel\\src\\test\\resources\\features\\Leaderboard\\DepositorsLeaderboard.feature",
+		features = "E:\\Ashwini\\fantasypanel\\src\\test\\resources\\features\\Leaderboard\\GlobalLeaderboard.feature",
 		glue = { "stepDefinitions", "Hooks" },
 		plugin = {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:" }
 		//,tags = "@PinContest"

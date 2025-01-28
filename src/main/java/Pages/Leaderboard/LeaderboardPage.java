@@ -27,6 +27,11 @@ public class LeaderboardPage extends DriverManager {
 		depositorsLeaderboard.click();
 	}
 	
-	
+	@FindBy(xpath = "//a[.=\"Global Leaderboard\"]")
+	private WebElement globalLeaderboard;
+
+	public void navigateToGlobalLeaderboard() {
+		globalLeaderboard.click();
+	}
 
 }
